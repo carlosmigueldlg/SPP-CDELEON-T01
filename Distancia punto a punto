@@ -1,0 +1,34 @@
+package awdaw;
+import java.util.*;
+/**
+ *
+ * @author CarlosM
+ */
+public class Awdaw {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+System.out.println("Distancia entre dos puntos");
+//Variables
+Scanner k = new Scanner (System.in);
+double x1,x2,y1,y2,d;
+//Ejecución
+System.out.println("Coordenadas del primer punto.");
+System.out.println("Valor de X1");
+x1 = k .nextDouble();
+System.out.println("Valor de Y1");
+y1 = k .nextDouble();
+System.out.println("Coordenadas del segundo punto.");
+System.out.println("Valor de X2");
+x2 = k .nextDouble();
+System.out.println ("Valor de Y2"); 
+y2 = k .nextDouble();
+//Operaciones
+d = Math.sqrt (((Math.pow(x1-x2,2)) + ((Math.pow(y1-y2,2)))));
+//Resultados 
+System.out.println(d);}}
+
+   
