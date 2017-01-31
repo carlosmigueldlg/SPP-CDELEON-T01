@@ -1,0 +1,33 @@
+package promedio;
+import java.util.*;
+
+/**
+ *
+ * @author esteb
+ */
+public class Promedio {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner revisar=new Scanner(System.in);
+float calif;
+float suma=0;
+float promedio;
+int c;
+for(c=1;c<=5;c++)// Aumentara la calificacion en 1 hasta que llegue hasta 5 para
+        
+{System.out.println("Teclea la calificacion" + c + ":");//Teclea la Calificacion
+
+calif=revisar.nextFloat();
+
+suma=suma+calif;//Sumar cada Calificacion ingresada
+
+}
+promedio=suma/(c-1);//Dividi la suma entre el total de Calificaciones ingresadas
+
+System.out.println("El Promedio es:" + promedio);// Impresion del Promedio
+
+}
+}
